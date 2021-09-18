@@ -4,7 +4,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := RemovePackages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
-LOCAL_OVERRIDES_PACKAGES := Gallery Gallery2 CameraRoll DigitalWellBeing Drive Maps MyVerizonServices SprintDM SprintHM YouTube YouTubeMusicPrebuilt PrebuiltGmail GoogleFeedback Videos Ornament Photos Tycho GoogleFeedback NgaResources
+LOCAL_OVERRIDES_PACKAGES := PixelWallpapers2020 SafetyHubPrebuilt FilesPrebuilt Ornament PixelLiveWallpaperPrebuilt Gallery Gallery2 CameraRoll DigitalWellBeing Drive Maps MyVerizonServices SprintDM SprintHM YouTube YouTubeMusicPrebuilt PrebuiltGmail GoogleFeedback Videos Photos Tycho GoogleFeedback NgaResources
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
