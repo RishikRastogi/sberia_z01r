@@ -24,13 +24,13 @@
     <bool name="doze_display_state_supported">true</bool>
 
     <!-- Max visible notification icons -->
-    <integer name="config_maxVisibleNotificationIcons">5</integer>
-    <integer name="config_maxVisibleNotificationIconsWhenDark">6</integer>
+    <integer name="config_maxVisibleNotificationIcons">6</integer>
+    <integer name="config_maxVisibleNotificationIconsWhenDark">7</integer>
 
-    <!-- Enabling fps toggle -->
+    <!-- fps node -->
     <string name="config_fpsInfoSysNode" translatable="false">/sys/class/drm/card0/sde-crtc-0/measured_fps</string>
-
-    <!-- The number of columns in the QuickSettings -->
+	
+	<!-- The number of columns in the QuickSettings -->
     <integer name="quick_settings_num_columns">4</integer>
 
     <!-- The number of rows in the QuickSettings -->
@@ -38,5 +38,4 @@
 
     <!-- The default tiles to display in QuickSettings -->
     <string name="quick_settings_tiles_default" translatable="false">wifi,bt,dnd,flashlight,rotation,battery,cell,airplane,cast,hotspot,screenrecord,dark</string>
-
 </resources>
