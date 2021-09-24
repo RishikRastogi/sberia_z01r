@@ -979,6 +979,7 @@ system/lib/libqvrservice.so
 system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
 system_ext/etc/permissions/telephonyservice.xml|b7831598d3c19c6ce4ef431d1cc44d94c3c35a8d
 system_ext/framework/qcrilhook.jar|6cead102805109095cabe4bf932dec079d93314e
+system_ext/framework/qti-telephony-common.jar|0042047e0e89996f3c74c10e774bbf20ee85f72e
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|fedfbafec61a0672f01b45ab9a43c9e8a153feae
 vendor/bin/hw/qcrild|3eea6728924507e6200a2a58c827bf1235eba28f
 vendor/bin/adpl|4ee2aa7fb4363ddfcacf67800e61e5b68aedae20
