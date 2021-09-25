@@ -223,7 +223,9 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-service \
     gralloc.sdm845 \
     hwcomposer.sdm845 \
+    libdisplayconfig \
     libdisplayconfig.qti \
+    libdisplayconfig.vendor \
     libqdMetaData \
     libtinyxml \
     memtrack.sdm845 \
@@ -511,6 +513,9 @@ PRODUCT_COPY_FILES += \
 # WiFi Display
 PRODUCT_PACKAGES += \
     libnl \
+    libdisplayconfig \
+    libdisplayconfig.qti \
+    libdisplayconfig.vendor \
     libwfdaac_vendor
 
 PRODUCT_BOOT_JARS += \
