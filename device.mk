@@ -225,7 +225,7 @@ PRODUCT_PACKAGES += \
     hwcomposer.sdm845 \
     libdisplayconfig \
     libdisplayconfig.qti \
-    libdisplayconfig.vendor \
+    libdisplayconfig.qti.vendor \
     libqdMetaData \
     libtinyxml \
     memtrack.sdm845 \
@@ -513,9 +513,6 @@ PRODUCT_COPY_FILES += \
 # WiFi Display
 PRODUCT_PACKAGES += \
     libnl \
-    libdisplayconfig \
-    libdisplayconfig.qti \
-    libdisplayconfig.vendor \
     libwfdaac_vendor
 
 PRODUCT_BOOT_JARS += \
