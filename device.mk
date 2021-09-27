@@ -39,7 +39,6 @@ AB_OTA_PARTITIONS += \
     boot \
     dtbo \
     system \
-    vendor \
     vbmeta
 
 AB_OTA_POSTINSTALL_CONFIG += \
@@ -225,7 +224,6 @@ PRODUCT_PACKAGES += \
     hwcomposer.sdm845 \
     libdisplayconfig \
     libdisplayconfig.qti \
-    libdisplayconfig.qti.vendor \
     libqdMetaData \
     libtinyxml \
     memtrack.sdm845 \
