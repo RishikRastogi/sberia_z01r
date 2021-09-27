@@ -23,13 +23,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 $(call inherit-product, device/asus/Z01R/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/banana/config/common.mk)
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 PRODUCT_BRAND := asus
 PRODUCT_DEVICE := Z01R
 PRODUCT_MANUFACTURER := asus
 PRODUCT_MODEL := Zenfone 5Z
-PRODUCT_NAME := banana _Z01R
+PRODUCT_NAME := derp_Z01R
 
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 
@@ -39,7 +39,6 @@ TARGET_VENDOR_DEVICE_NAME := Z01R
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=ASUS_Z01R_1 \
     PRODUCT_NAME=WW_Z01RD \
-    PRIVATE_BUILD_DESC="$(BUILD_DESCRIPTION)"
+    PRIVATE_BUILD_DESC="Z01R-user 8.0.0 OPR1.170623.032 WW_user_80.30.96.221_20181018 release-keys"
 
-BUILD_FINGERPRINT := google/barbet/barbet:11/RD2A.210905.002/7513089:user/release-keys
-BUILD_DESCRIPTION := barbet-user 11 RD2A.210905.002 7513089 release-keys
+BUILD_FINGERPRINT := asus/WW_Z01RD/ASUS_Z01R_1:8.0.0/OPR1.170623.032/WW_80.30.96.221_20181018:user/release-keys
