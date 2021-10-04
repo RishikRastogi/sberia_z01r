@@ -97,3 +97,6 @@ ro.sf.blurs_are_expensive=1
 # Iorap
 iorapd.perfetto.enable=true
 iorapd.readahead.enable=true
+
+# Seamless transfer
+sys.fflag.override.settings_seamless_transfer=true
